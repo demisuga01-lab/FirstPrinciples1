@@ -1,0 +1,92 @@
+@import "tailwindcss";
+@import "./variables.css";
+@import "./typography.css";
+@import "./animations.css";
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-border) transparent;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-brutal-black);
+    color: var(--color-text-primary);
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+
+  ::selection {
+    background-color: var(--color-accent-cyan);
+    color: var(--color-brutal-black);
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-text-secondary);
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font: inherit;
+    color: inherit;
+  }
+
+  /* Contain heavy animation sections */
+  .gpu-layer {
+    transform: translateZ(0);
+    will-change: transform, opacity;
+    contain: layout style paint;
+  }
+
+  /* Section padding */
+  .section-padding {
+    padding: var(--space-16) var(--space-6);
+  }
+
+  @media (min-width: 768px) {
+    .section-padding {
+      padding: var(--space-24) var(--space-8);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .section-padding {
+      padding: var(--space-32) var(--space-16);
+    }
+  }
+}

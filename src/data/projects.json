@@ -1,0 +1,42 @@
+[
+  {
+    "id": "project-1",
+    "title": "Rust Raft Engine",
+    "description": "A distributed consensus engine implementing the Raft protocol from scratch in Rust. Fault-tolerant, production-ready, with zero-copy serialization.",
+    "tech": ["Rust", "Tokio", "gRPC", "Serde"],
+    "github": "https://github.com/demisuga01-lab/raft-engine",
+    "live": null,
+    "image": null,
+    "featured": true
+  },
+  {
+    "id": "project-2",
+    "title": "React UI Kit",
+    "description": "Brutalist-inspired React component library with heavy animations, motion design, and accessibility-first architecture.",
+    "tech": ["React", "TypeScript", "Framer Motion", "Storybook"],
+    "github": "https://github.com/demisuga01-lab/brutal-ui",
+    "live": null,
+    "image": null,
+    "featured": true
+  },
+  {
+    "id": "project-3",
+    "title": "TypeScript CLI Generator",
+    "description": "Scaffolding tool that generates complete TypeScript CLI projects with Commander.js, tests, and CI/CD pipelines.",
+    "tech": ["TypeScript", "Commander.js", "Vitest", "Node.js"],
+    "github": "https://github.com/demisuga01-lab/create-ts-cli",
+    "live": null,
+    "image": null,
+    "featured": false
+  },
+  {
+    "id": "project-4",
+    "title": "First Principles",
+    "description": "A blog and knowledge base exploring software engineering from first principles — compilers, protocols, and systems architecture.",
+    "tech": ["Next.js", "MDX", "TypeScript", "TailwindCSS"],
+    "github": "https://github.com/demisuga01-lab/FirstPrinciples1",
+    "live": "https://firstprinciples.vercel.app",
+    "image": null,
+    "featured": true
+  }
+]

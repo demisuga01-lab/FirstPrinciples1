@@ -1,0 +1,22 @@
+{
+  "github": {
+    "url": "https://github.com/demisuga01-lab",
+    "label": "GitHub",
+    "icon": "github"
+  },
+  "youtube": {
+    "url": "https://youtube.com/@oxide",
+    "label": "YouTube",
+    "icon": "youtube"
+  },
+  "linkedin": {
+    "url": "https://linkedin.com/in/oxide",
+    "label": "LinkedIn",
+    "icon": "linkedin"
+  },
+  "twitter": {
+    "url": "https://x.com/oxide_dev",
+    "label": "Twitter / X",
+    "icon": "twitter"
+  }
+}

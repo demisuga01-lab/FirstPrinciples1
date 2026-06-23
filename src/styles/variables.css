@@ -1,0 +1,46 @@
+:root {
+  /* Colors */
+  --color-brutal-black: #0a0a0a;
+  --color-brutal-white: #f5f5f5;
+  --color-accent-cyan: #00d9ff;
+  --color-accent-lime: #39ff14;
+  --color-glitch-red: #ff006e;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #999999;
+  --color-border: #333333;
+  --color-border-light: #1a1a1a;
+
+  /* Typography */
+  --font-heading: "Roboto Mono", monospace;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-code: "Roboto Mono", monospace;
+
+  /* Spacing */
+  --space-0: 2px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 500ms ease;
+
+  /* Z-index layers */
+  --z-grid: 0;
+  --z-content: 10;
+  --z-header: 100;
+  --z-overlay: 200;
+  --z-cursor: 300;
+
+  /* Layout */
+  --max-width: 1280px;
+  --header-height: 64px;
+}

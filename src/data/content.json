@@ -1,0 +1,42 @@
+{
+  "site": {
+    "title": "Oxide",
+    "subtitle": "Full-Stack Developer",
+    "tagline": "Rust · TypeScript · React",
+    "description": "Building the future with systems-level thinking and pixel-perfect craft."
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Oxide",
+    "roles": ["Full-Stack Developer", "Rust Enthusiast", "TypeScript Architect"],
+    "cta": "Explore My Work"
+  },
+  "about": {
+    "heading": "About Me",
+    "paragraphs": [
+      "I'm a full-stack developer who believes in building software from first principles. My work spans distributed systems in Rust to fluid animations in React — I care deeply about performance, architecture, and the craft of code.",
+      "When I'm not architecting systems or shipping features, you'll find me writing about compilers, protocols, and the timeless principles that make great software."
+    ]
+  },
+  "work": {
+    "heading": "Selected Work",
+    "subheading": "Projects that define my approach to engineering"
+  },
+  "skills": {
+    "heading": "Toolbox",
+    "subheading": "Technologies I work with daily"
+  },
+  "timeline": {
+    "heading": "Experience",
+    "subheading": "The path from junior to architect"
+  },
+  "blog": {
+    "heading": "Latest Writing",
+    "subheading": "Thoughts on engineering, architecture, and building"
+  },
+  "contact": {
+    "heading": "Let's Build Something",
+    "subheading": "Available for freelance, consulting, and collaboration",
+    "cta": "Get In Touch"
+  }
+}

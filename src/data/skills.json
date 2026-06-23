@@ -1,0 +1,18 @@
+[
+  { "name": "Rust", "category": "language", "proficiency": 90 },
+  { "name": "TypeScript", "category": "language", "proficiency": 95 },
+  { "name": "JavaScript", "category": "language", "proficiency": 95 },
+  { "name": "Python", "category": "language", "proficiency": 75 },
+  { "name": "React.js", "category": "frontend", "proficiency": 95 },
+  { "name": "Next.js", "category": "frontend", "proficiency": 85 },
+  { "name": "TailwindCSS", "category": "frontend", "proficiency": 90 },
+  { "name": "Framer Motion", "category": "frontend", "proficiency": 85 },
+  { "name": "Node.js", "category": "backend", "proficiency": 90 },
+  { "name": "PostgreSQL", "category": "backend", "proficiency": 80 },
+  { "name": "Redis", "category": "backend", "proficiency": 75 },
+  { "name": "WebSockets", "category": "backend", "proficiency": 80 },
+  { "name": "Docker", "category": "devops", "proficiency": 80 },
+  { "name": "Linux", "category": "devops", "proficiency": 85 },
+  { "name": "Git", "category": "devops", "proficiency": 90 },
+  { "name": "CI/CD", "category": "devops", "proficiency": 85 }
+]
